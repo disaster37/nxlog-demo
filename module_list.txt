@@ -1,0 +1,118 @@
+FILENAME: nxlog-4.7.4715_rhel7_x86_64.tar.bz2
+nxlog-4.7.4715_rhel7_x86_64.rpm
+ extension: xm_admin
+ extension: xm_aixaudit
+ extension: xm_asl
+ extension: xm_cef
+ extension: xm_charconv
+ extension: xm_csv
+ extension: xm_exec
+ extension: xm_filelist
+ extension: xm_fileop
+ extension: xm_gelf
+ extension: xm_grok
+ extension: xm_json
+ extension: xm_kvp
+ extension: xm_leef
+ extension: xm_msdns
+ extension: xm_multiline
+ extension: xm_netflow
+ extension: xm_nps
+ extension: xm_pattern
+ extension: xm_resolver
+ extension: xm_rewrite
+ extension: xm_snmp
+ extension: xm_soapadmin
+ extension: xm_stdinpw
+ extension: xm_syslog
+ extension: xm_w3c
+ extension: xm_wtmp
+ extension: xm_xml
+ input: im_acct
+ input: im_azure
+ input: im_batchcompress
+ input: im_batchcompress_new
+ input: im_exec
+ input: im_file
+ input: im_fim
+ input: im_http
+ input: im_internal
+ input: im_kernel
+ input: im_linuxaudit
+ input: im_mark
+ input: im_null
+ input: im_redis
+ input: im_ssl
+ input: im_tcp
+ input: im_testgen
+ input: im_udp
+ input: im_uds
+ output: om_batchcompress
+ output: om_batchcompress_new
+ output: om_blocker
+ output: om_elasticsearch
+ output: om_eventdb
+ output: om_exec
+ output: om_file
+ output: om_http
+ output: om_null
+ output: om_raijin
+ output: om_redis
+ output: om_ssl
+ output: om_tcp
+ output: om_udp
+ output: om_udpspoof
+ output: om_uds
+ output: om_webhdfs
+ processor: pm_blocker
+ processor: pm_buffer
+ processor: pm_evcorr
+ processor: pm_filter
+ processor: pm_hmac
+ processor: pm_hmac_check
+ processor: pm_norepeat
+ processor: pm_null
+ processor: pm_pattern
+ processor: pm_transformer
+ processor: pm_ts
+
+nxlog-checkpoint-4.7.4715_rhel7_x86_64.rpm
+ input: im_checkpoint
+
+nxlog-dbi-4.7.4715_rhel7_x86_64.rpm
+ input: im_dbi
+ output: om_dbi
+
+nxlog-kafka-4.7.4715_rhel7_x86_64.rpm
+ input: im_kafka
+ output: om_kafka
+
+nxlog-odbc-4.7.4715_rhel7_x86_64.rpm
+ input: im_odbc
+ output: om_odbc
+
+nxlog-perl-4.7.4715_rhel7_x86_64.rpm
+ extension: xm_perl
+ input: im_perl
+ output: om_perl
+
+nxlog-python-4.7.4715_rhel7_x86_64.rpm
+ extension: xm_python
+ input: im_python
+ output: om_python
+
+nxlog-ruby-4.7.4715_rhel7_x86_64.rpm
+ extension: xm_ruby
+ input: im_ruby
+ output: om_ruby
+
+nxlog-wmi-4.7.4715_rhel7_x86_64.rpm
+ input: im_wmi
+
+nxlog-wseventing-4.7.4715_rhel7_x86_64.rpm
+ input: im_wseventing
+
+nxlog-zmq-4.7.4715_rhel7_x86_64.rpm
+ input: im_zmq
+ output: om_zmq
+
